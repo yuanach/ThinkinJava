@@ -8,7 +8,7 @@ public class MyObject {
 	
 	public static void main(String[] args) {
 		
-		Class cls;
+		Class cls; 
 		
 		Object obj=new Object();
 		Object obj2=new Object();
