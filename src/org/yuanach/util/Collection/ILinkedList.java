@@ -10,6 +10,9 @@ public class ILinkedList {
 	// java.util.LinkedList extends java.util.AbstractSequentialList 
 			//implements java.util.List, java.util.Deque, java.lang.Cloneable, java.io.Serializable
 	
+	/*
+	 * 	Deque extends Queue
+	 */
 	private static int index=0;
 	
 	public static void main(String[] args) {

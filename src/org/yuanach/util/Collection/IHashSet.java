@@ -38,7 +38,7 @@ public class IHashSet {
 		hashset=new HashSet<Object>(capacity);					//容量
 		hashset=new HashSet<Object>(capacity,fillRatio);		//容量和填充比,默认为0.75
 		
-		System.out.println(hashset);
+		System.out.println(hashset.size());
 		
 	}
 

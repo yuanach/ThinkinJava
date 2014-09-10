@@ -8,11 +8,11 @@ public class MyObject {
 	
 	public static void main(String[] args) {
 		
-		Class cls; 
+		//Class cls; 
 		
 		Object obj=new Object();
-		Object obj2=new Object();
-		
+		Object obj2=new Object(); 
+/*		
 		//比较是否对该对象等价
 		obj.equals(obj2);
 		
@@ -41,6 +41,7 @@ public class MyObject {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+*/
 	}
 
 }

@@ -35,7 +35,7 @@ public class IMap {
 		map.get(key);
 		
 		//返回指定健对应的值，如果不成功则返回默认值
-		value=map.getOrDefault(key, defaultValue);
+		//value=map.getOrDefault(key, defaultValue);
 		
 		//返回此映射中包含的键的 Set 视图,该 set 受映射支持，所以对映射的更改可在此 set 中反映出来，反之亦然。
 		set=map.keySet();
@@ -47,9 +47,9 @@ public class IMap {
 		//map.putIfAbsent(key, value);
 		
 		map.remove(key);
-		map.remove(key, value);
+		//map.remove(key, value);
 		
-		map.replace(key, defaultValue);
+		//map.replace(key, defaultValue);
 		//map.replace(arg0, arg1, arg2);
 	}
 

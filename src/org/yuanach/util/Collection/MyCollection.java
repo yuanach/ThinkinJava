@@ -10,7 +10,7 @@ public class MyCollection {
 	private static int cl_size;
 	public static void main(String[] args) {
 		
-		Object obj=new Object();
+		Object obj=new Object(); obj.hashCode();
 		Object[] objArray;
 		Iterator<Object> it;
 		
@@ -42,7 +42,7 @@ public class MyCollection {
 		it=cl.iterator();
 		
 		//
-		cl.parallelStream();
+		//cl.parallelStream();
 		
 		//从容器中移除指定对象
 		cl.remove(obj);
@@ -58,7 +58,7 @@ public class MyCollection {
 		
 		//cl.spliterator();
 		
-		cl.stream();
+		//cl.stream();
 		
 		//返回该容器的数组化引用
 		objArray=cl.toArray();
